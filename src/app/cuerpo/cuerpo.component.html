@@ -1,0 +1,29 @@
+<h1>EVALUACION_EMPLEADO</h1>
+
+<form>
+    <label class="codigo"> Codigo De Evaluación:
+        <input type="Text" id="cod" required /> 
+    </label>
+    <label class="area"> Area De Trabajo:
+      <select id="area" name="AreaTrabajo">
+        <option value="">(seleccione uno)</option>
+        <option value="1">Area Frontal</option>
+        <option value="2">Area Trasera</option>
+        <option value="3">Area Superior</option>
+      </select>
+  </label>
+    <label> Fecha De Evaluación:
+        <input type="date" id="fecha" required /> 
+    </label>
+    <label> Nombre De Empleado:
+        <input type="text" id="nombre" placeholder="Carlos Hidalgo" required /> 
+    </label> 
+    <label> Codigo De Gerente:
+        <input type="Text" id="gerente" required /> 
+    </label>
+
+    <input class="botones" type="Submit" id="buscar" value="Buscar">
+    <input class="botones" type="Submit" id="crear" value="Crear">
+    <input class="botones" type="Submit" id="borrar" value="Borrar">
+    <input class="botones" type="Submit" id="modificar" value="Modificar">
+</form>

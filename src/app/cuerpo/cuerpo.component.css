@@ -1,0 +1,58 @@
+
+h1{
+text-align: center;
+margin-top: 10%;
+font-size: 30px;
+color: white;
+}
+
+form{
+    width: 50%;
+    height: 400px;
+    margin: 1.5% auto;
+    color: white;
+    background: rgba(10, 14, 24, 0.70);
+    padding: 4%;
+}
+
+input, select{
+    background: rgba(5, 7, 12, 0.40);
+    background-color: #0a0a23;
+    color: #ffffff;
+}
+
+label
+{
+    display: block;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.codigo{
+    margin-top: -3%;
+}
+
+#cod, #fecha, #nombre, #gerente {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.botones {
+    width: 15%;
+    margin: 1.5% auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    min-width: 250px;
+    float: left;
+  }
+
+#crear, #buscar{
+    margin-top: 3.5%;
+    margin-left: 7%;
+}
+
+#borrar, #modificar{
+    margin-left: 7%;
+}
